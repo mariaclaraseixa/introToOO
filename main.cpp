@@ -24,7 +24,6 @@ public:
         }
     }
 
-    // Método para entregar as notas
     void deliverBankNote() {
         if (banknoteStack.empty()) {
             std::cout << "No banknotes to be delivered" << std::endl;
