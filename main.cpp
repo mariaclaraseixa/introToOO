@@ -12,7 +12,7 @@ public:
     }
 
 
-    void withdrawBanknote(int value) {
+    void withdrawBankNote(int value) {
         banknoteStack = std::stack<int>();
         int remaining = value;
 
@@ -45,7 +45,7 @@ int main() {
     std::cout << "Type the amount of money to be withdraw:  $ ";
     std::cin >> value;
 
-    machine->withdrawBanknote(value);
+    machine->withdrawBankNote(value);
     machine->deliverBankNote();
 
     delete machine;
